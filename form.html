@@ -32,23 +32,37 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
-
 <div class="container mt-3">
   <h2>กรอกข้อมูลให้ครบ</h2>
+
   <form action="/action_page.php">
+
     <div class="mb-3 mt-3">
-      <label for="ชื่อ-นามสกุล">ชื่อ-นามสกุล:</label>  
-      <input type="email" class="form-control" id="email" placeholder="กรอกชื่อ-นามสกุล " name="email">
+      <label for="fullname">ชื่อ-นามสกุล:</label>
+      <input type="text" class="form-control"
+             id="fullname"
+             name="fullname"
+             placeholder="กรอกชื่อ-นามสกุล">
     </div>
-  <div class="mb-3 mt-3">
-      <label for="เพลงที่ฟัง">เพลงที่ฟัง:</label>
-      <input type="email" class="form-control" id="email" placeholder="กรอกชื่อเพลงที่ฟัง" name="email">
+
+    <div class="mb-3 mt-3">
+      <label for="song">เพลงที่ฟัง:</label>
+      <input type="text" class="form-control"
+             id="song"
+             name="song"
+             placeholder="กรอกชื่อเพลงที่ฟัง">
     </div>
-<div class="mb-3 mt-3">
-      <label for="ชื่อศิลปิน">ชื่อศิลปิน:</label>
-      <input type="email" class="form-control" id="email" placeholder="กรอกชื่อศิลปิน" name="email">
+
+    <div class="mb-3 mt-3">
+      <label for="artist">ชื่อศิลปิน:</label>
+      <input type="text" class="form-control"
+             id="artist"
+             name="artist"
+             placeholder="กรอกชื่อศิลปิน">
     </div>
-       <button type="submit" class="btn btn-primary">บันทึกข้อมูล</button>
+
+    <button type="submit" class="btn btn-primary">บันทึกข้อมูล</button>
+
   </form>
 </div>
 
